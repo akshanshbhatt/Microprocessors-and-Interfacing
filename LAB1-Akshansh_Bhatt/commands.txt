@@ -1,0 +1,9 @@
+debugx
+N lab1.txt
+l 300
+d ds:300
+a
+MOV AX, 3C
+MOV [0300], AL
+G = 100 106
+d ds:0300
